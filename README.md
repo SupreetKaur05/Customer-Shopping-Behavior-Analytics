@@ -1,69 +1,95 @@
 # Customer Shopping Behavior Analytics
 
-## Project Overview
-
-This project presents an end-to-end data analytics workflow for analyzing customer shopping behavior using Python, SQL, and Power BI. The objective is to transform raw customer transaction data into meaningful business insights through data cleaning, analysis, visualization, and reporting.
-
-The project demonstrates the complete analytics lifecycle, including data preprocessing, SQL-based business analysis, interactive dashboard creation, and business reporting.
+An end-to-end **Retail Data Analytics** project developed using **Python, SQL, and Power BI** to analyze customer shopping behavior and generate actionable business insights. The project demonstrates the complete analytics workflow, from raw data preprocessing to interactive dashboard development and business reporting.
 
 ---
 
-## Objectives
+# 📌 Project Overview
 
-- Analyze customer purchasing behavior
-- Identify sales and revenue trends
-- Understand customer demographics
-- Evaluate payment method preferences
-- Generate business insights using interactive dashboards
+This project focuses on analyzing customer shopping behavior by transforming raw transactional data into meaningful business insights. It demonstrates practical data analytics skills including data cleaning, exploratory data analysis, SQL querying, dashboard creation, and business reporting.
+
+The project simulates a real-world analytics workflow commonly used by Data Analysts and Business Intelligence professionals.
 
 ---
 
-## Tech Stack
+# 🎯 Objectives
 
-- **Python** (Pandas, NumPy)
-- **SQL**
-- **Power BI**
-- **Jupyter Notebook**
+- Analyze customer purchasing behavior.
+- Identify sales and revenue trends.
+- Study customer demographics.
+- Evaluate preferred payment methods.
+- Generate business insights through interactive dashboards.
+- Support data-driven decision making.
 
 ---
 
-## Project Workflow
+# 🛠️ Tech Stack
 
+| Technology | Purpose |
+|------------|---------|
+| Python (Pandas, NumPy) | Data Cleaning & Analysis |
+| SQL | Business Analysis |
+| Power BI | Dashboard Development |
+| Jupyter Notebook | Data Exploration |
+| Git & GitHub | Version Control |
+
+---
+
+# 📊 Project Workflow
+
+```text
+Customer Shopping Dataset
+          │
+          ▼
+Data Cleaning & Preprocessing (Python)
+          │
+          ▼
+Exploratory Data Analysis (EDA)
+          │
+          ▼
+Business Analysis using SQL
+          │
+          ▼
+Interactive Power BI Dashboard
+          │
+          ▼
+Business Insights & Reporting
 ```
-Customer Dataset
-        │
-        ▼
-Python Data Cleaning & Preprocessing
-        │
-        ▼
-Exploratory Data Analysis
-        │
-        ▼
-SQL Business Queries
-        │
-        ▼
-Power BI Dashboard
-        │
-        ▼
-Business Insights & Report
+
+---
+
+# 📁 Repository Structure
+
+```text
+Customer-Shopping-Behavior-Analytics
+│
+├── Business Problem Document.pdf
+├── Customer Shopping Behavior Analytics Report.pdf
+├── Customer-Shopping-Behavior-Analytics Presentation.pptx
+├── Customer_Shopping_Behavior_Analysis.ipynb
+├── customer_behavior_dashboard.pbix
+├── customer_behavior_sql_queries.sql
+├── customer_shopping_behavior.csv
+└── README.md
 ```
 
 ---
 
-## Project Files
+# 📂 Project Files
 
 | File | Description |
 |------|-------------|
-| Customer_Shopping_Behavior_Analysis.ipynb | Data cleaning and exploratory data analysis using Python |
-| customer_behavior_sql_queries.sql | SQL queries for business analysis |
+| Business Problem Document.pdf | Project problem statement and business requirements |
+| Customer Shopping Behavior Analytics Report.pdf | Detailed project report with findings and recommendations |
+| Customer-Shopping-Behavior-Analytics Presentation.pptx | Project presentation |
+| Customer_Shopping_Behavior_Analysis.ipynb | Data cleaning, preprocessing, and exploratory data analysis |
+| customer_behavior_sql_queries.sql | SQL queries used for business analysis |
 | customer_behavior_dashboard.pbix | Interactive Power BI dashboard |
 | customer_shopping_behavior.csv | Customer shopping dataset |
-| Customer Shopping Behavior Analysis.pdf | Project report |
-| Customer-Shopping-Behavior-Analysis.pptx | Project presentation |
 
 ---
 
-## Dataset Features
+# 📈 Dataset Features
 
 - Customer ID
 - Gender
@@ -73,85 +99,104 @@ Business Insights & Report
 - Price
 - Payment Method
 - Shopping Mall
-- Purchase Date
+- Invoice Date
 
 ---
 
-## Business Questions Solved
+# ❓ Business Questions Solved
 
 - Which product categories generate the highest revenue?
-- Which customer age group contributes the most sales?
-- What are the most preferred payment methods?
-- Which shopping malls perform the best?
+- Which customer age groups contribute the most sales?
+- Which shopping malls generate the highest revenue?
+- Which payment methods are preferred by customers?
 - What are the monthly purchasing trends?
-- How does purchasing behavior vary across customer segments?
+- How do customer purchasing patterns vary across demographics?
 
 ---
 
-## Dashboard Highlights
+# 📉 Dashboard Highlights
 
 The Power BI dashboard includes:
 
 - Total Revenue
 - Total Orders
-- Category-wise Sales
+- Product Category Analysis
 - Revenue by Shopping Mall
 - Customer Demographics
 - Payment Method Analysis
 - Monthly Sales Trend
-- Interactive Filters and KPIs
+- Interactive KPIs
+- Dynamic Filters and Slicers
 
 ---
 
-## Key Skills Demonstrated
+# 💼 Skills Demonstrated
 
 - Data Cleaning
+- Data Preprocessing
 - Exploratory Data Analysis (EDA)
 - SQL Query Writing
 - Data Visualization
 - Dashboard Development
 - Business Intelligence
-- Reporting and Presentation
+- KPI Analysis
+- Business Reporting
 
 ---
 
-## Business Insights
+# 🔍 Key Business Insights
 
-- Identified high-performing product categories.
-- Analyzed customer purchasing behavior across different age groups.
-- Evaluated preferred payment methods.
-- Compared shopping mall performance.
-- Visualized monthly revenue trends for better business decisions.
+- Identified top-performing product categories based on revenue.
+- Compared purchasing behavior across different customer age groups.
+- Evaluated customer payment preferences.
+- Analyzed shopping mall performance.
+- Identified monthly purchasing trends to support business decisions.
 
 ---
 
-## Future Enhancements
+# 🚀 Future Enhancements
 
 - Customer Segmentation using Machine Learning
 - Sales Forecasting
 - Customer Lifetime Value Analysis
 - Automated ETL Pipeline
-- Cloud-based Dashboard Deployment
+- Cloud-Based Dashboard Deployment
 
 ---
 
-## Repository Structure
+# 📷 Dashboard Preview
 
-```
-Customer-Shopping-Behavior-Analytics
+Add screenshots of the Power BI dashboard inside an **images** folder.
+
+Example:
+
+```text
+images/
 │
-├── Customer_Shopping_Behavior_Analysis.ipynb
-├── customer_behavior_dashboard.pbix
-├── customer_behavior_sql_queries.sql
-├── customer_shopping_behavior.csv
-├── Customer Shopping Behavior Analysis.pdf
-├── Customer-Shopping-Behavior-Analysis.pptx
-└── README.md
+├── dashboard.png
+├── sales_dashboard.png
+└── customer_analysis.png
+```
+
+Then display them using:
+
+```markdown
+![Dashboard](images/dashboard.png)
+
+![Sales Dashboard](images/sales_dashboard.png)
+
+![Customer Analysis](images/customer_analysis.png)
 ```
 
 ---
 
-## Author
+# 💡 Business Value
+
+This project demonstrates how customer transaction data can be transformed into actionable business insights using modern analytics tools. The dashboard enables businesses to monitor sales performance, understand customer purchasing behavior, evaluate product performance, and support strategic decision-making.
+
+---
+
+# 👩‍💻 Author
 
 **Supreet Kaur**
 
@@ -163,6 +208,6 @@ GitHub: https://github.com/SupreetKaur05
 
 ---
 
-## Project Summary
+# 📄 Project Summary
 
-This project demonstrates an end-to-end retail analytics workflow by combining Python, SQL, and Power BI to transform raw customer shopping data into actionable business insights. It showcases practical skills in data cleaning, SQL analysis, dashboard development, and business reporting, reflecting a real-world data analytics process.
+This project showcases an end-to-end customer shopping behavior analytics workflow using Python, SQL, and Power BI. It highlights practical skills in data preprocessing, SQL-based business analysis, dashboard development, KPI visualization, and business reporting through an interactive analytics solution.
