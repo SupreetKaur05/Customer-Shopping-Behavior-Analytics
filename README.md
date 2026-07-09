@@ -166,27 +166,7 @@ The Power BI dashboard includes:
 
 # 📷 Dashboard Preview
 
-Add screenshots of the Power BI dashboard inside an **images** folder.
-
-Example:
-
-```text
-images/
-│
-├── dashboard.png
-├── sales_dashboard.png
-└── customer_analysis.png
-```
-
-Then display them using:
-
-```markdown
-![Dashboard](images/dashboard.png)
-
-![Sales Dashboard](images/sales_dashboard.png)
-
-![Customer Analysis](images/customer_analysis.png)
-```
+<img width="1326" height="690" alt="image" src="https://github.com/user-attachments/assets/b59e248b-5d76-4337-a834-12d0a08e6e85" />
 
 ---
 
