@@ -30,7 +30,7 @@ The project simulates a real-world analytics workflow commonly used by Data Anal
 | Python (Pandas, NumPy) | Data Cleaning & Analysis |
 | SQL | Business Analysis |
 | Power BI | Dashboard Development |
-| Jupyter Notebook | Data Exploration |
+| Jupyter Notebook / Google Colab | Data Exploration |
 | Git & GitHub | Version Control |
 
 ---
@@ -65,7 +65,6 @@ Customer-Shopping-Behavior-Analytics
 │
 ├── Business Problem Document.pdf
 ├── Customer Shopping Behavior Analytics Report.pdf
-├── Customer-Shopping-Behavior-Analytics Presentation.pptx
 ├── Customer_Shopping_Behavior_Analysis.ipynb
 ├── customer_behavior_dashboard.pbix
 ├── customer_behavior_sql_queries.sql
@@ -81,7 +80,6 @@ Customer-Shopping-Behavior-Analytics
 |------|-------------|
 | Business Problem Document.pdf | Project problem statement and business requirements |
 | Customer Shopping Behavior Analytics Report.pdf | Detailed project report with findings and recommendations |
-| Customer-Shopping-Behavior-Analytics Presentation.pptx | Project presentation |
 | Customer_Shopping_Behavior_Analysis.ipynb | Data cleaning, preprocessing, and exploratory data analysis |
 | customer_behavior_sql_queries.sql | SQL queries used for business analysis |
 | customer_behavior_dashboard.pbix | Interactive Power BI dashboard |
@@ -180,7 +178,7 @@ This project demonstrates how customer transaction data can be transformed into 
 
 **Supreet Kaur**
 
-B.Tech Computer Science Engineering
+B.e Computer Science Engineering
 
 UIET, Panjab University
 
